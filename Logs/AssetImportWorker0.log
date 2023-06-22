@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/User/Documents/GitHub/TZ-Designer/TZ-HerylovichYana
+D:/игра/Тестовое задание (LWS)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50530
-Successfully changed project path to: C:/Users/User/Documents/GitHub/TZ-Designer/TZ-HerylovichYana
-C:/Users/User/Documents/GitHub/TZ-Designer/TZ-HerylovichYana
+50262
+Successfully changed project path to: D:/игра/Тестовое задание (LWS)
+D:/игра/Тестовое задание (LWS)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,15 +49,15 @@ C:/Users/User/Documents/GitHub/TZ-Designer/TZ-HerylovichYana
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29576] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2357828290 [EditorId] 2357828290 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-298MT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7084] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 208896770 [EditorId] 208896770 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-298MT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [29576] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2357828290 [EditorId] 2357828290 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-298MT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7084] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 208896770 [EditorId] 208896770 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-298MT9I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 110.96 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 37.86 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.2f1 (d74737c6db50)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/TZ-Designer/TZ-HerylovichYana/Assets
+[Subsystems] Discovering subsystems at path D:/игра/Тестовое задание (LWS)/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -69,49 +69,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.077805 seconds.
-- Loaded All Assemblies, in  2.066 seconds
+Registered in 0.038450 seconds.
+- Loaded All Assemblies, in  1.444 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1071 ms
+Android Extension - Scanning For ADB Devices 998 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.431 seconds
-Domain Reload Profiling: 4493ms
-	BeginReloadAssembly (651ms)
+- Finished resetting the current domain, in  2.212 seconds
+Domain Reload Profiling: 3653ms
+	BeginReloadAssembly (334ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (371ms)
-	RebuildNativeTypeToScriptingClass (40ms)
-	initialDomainReloadingComplete (287ms)
-	LoadAllAssembliesAndSetupDomain (712ms)
-		LoadAssemblies (654ms)
+	RebuildCommonClasses (128ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (263ms)
+	LoadAllAssembliesAndSetupDomain (681ms)
+		LoadAssemblies (327ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (685ms)
-			TypeCache.Refresh (683ms)
-				TypeCache.ScanAssembly (644ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (2432ms)
+		AnalyzeDomain (624ms)
+			TypeCache.Refresh (618ms)
+				TypeCache.ScanAssembly (565ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (2214ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2161ms)
+		SetupLoadedEditorAssemblies (1982ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1556ms)
-			SetLoadedEditorAssemblies (17ms)
+			InitializePlatformSupportModulesInManaged (1414ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (395ms)
-			ProcessInitializeOnLoadMethodAttributes (188ms)
+			BeforeProcessingInitializeOnLoad (14ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,3 +119,304 @@ Domain Reload Profiling: 4493ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\игра\Тестовое задание (LWS)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\игра\Тестовое задание (LWS)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.785 seconds
+Refreshing native plugins compatible for Editor in 12.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.589 seconds
+Domain Reload Profiling: 6370ms
+	BeginReloadAssembly (519ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (121ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (144ms)
+	LoadAllAssembliesAndSetupDomain (2962ms)
+		LoadAssemblies (2018ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1196ms)
+			TypeCache.Refresh (1094ms)
+				TypeCache.ScanAssembly (1031ms)
+			ScanForSourceGeneratedMonoScriptInfo (87ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2590ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1761ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (125ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (1204ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 8.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3999 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (217.6 KB). Loaded Objects now: 4462.
+Memory consumption went from 144.2 MB to 144.0 MB.
+Total: 11.400800 ms (FindLiveObjects: 0.736400 ms CreateObjectMapping: 0.495200 ms MarkObjects: 8.658500 ms  DeleteObjects: 1.508600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 590153.944675 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82754a374212ea9314d397d5ab1bf6ea') in 0.024578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 934.262602 seconds.
+  path: Assets/Tilepalette
+  artifactKey: Guid(5bee61bce7421a441961ded4fe3e3082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilepalette using Guid(5bee61bce7421a441961ded4fe3e3082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373d633f461cc3a389db768075979a27') in 0.001076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tilepalette/льдины.prefab
+  artifactKey: Guid(6cc6cf831bfa1934593b2b6f753ebba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilepalette/льдины.prefab using Guid(6cc6cf831bfa1934593b2b6f753ebba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21270e188735e67f43e2e9ff90ce88d0') in 0.517200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 16.052181 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c43ecc90a3286c2e71162bd8a995c65') in 0.000784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1033.275962 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/неизвестный полярный медведь
+  artifactKey: Guid(9e3a40edbcdb34a4cb82823730a7e493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/неизвестный полярный медведь using Guid(9e3a40edbcdb34a4cb82823730a7e493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa119751afc9fd8645f70d80e802cfb8') in 0.001730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051633 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/музик
+  artifactKey: Guid(bb50d2c6f7aa52240bb7270ad19c149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/музик using Guid(bb50d2c6f7aa52240bb7270ad19c149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17964318098a54f94d955b7ce394f59') in 0.001412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002665 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/снежные пласты/tilemap/snowyСoastline3s.asset
+  artifactKey: Guid(54e6a73df6ac3fc498da91647e7f3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/снежные пласты/tilemap/snowyСoastline3s.asset using Guid(54e6a73df6ac3fc498da91647e7f3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052421938f205edabeec26104ee6f8cd') in 0.098419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.320164 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/снеговик
+  artifactKey: Guid(c3b0a871bffe0e448acad9c643b69fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/снеговик using Guid(c3b0a871bffe0e448acad9c643b69fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56628e3ab72af231b59831801c08e2ca') in 0.001204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.542049 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/снежные пласты/tilemap
+  artifactKey: Guid(ac6271ab9cf3cca41a211750a91a0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/снежные пласты/tilemap using Guid(ac6271ab9cf3cca41a211750a91a0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce5b1aa66b4c86a3c117787c784247a') in 0.001184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.332520 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/звезды
+  artifactKey: Guid(e3763bead02d8ea4a8b281efec6d20a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/звезды using Guid(e3763bead02d8ea4a8b281efec6d20a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8123138d162a16d1c8033d61d1ab2529') in 0.001254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.317240 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/течение
+  artifactKey: Guid(d580679b98bfd1045aac2ab8d004fb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/течение using Guid(d580679b98bfd1045aac2ab8d004fb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242ebfd0c7bfbe9258a31145f56d2244') in 0.000787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.250638 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07abcfede58d161096aa021a60c8c641') in 0.001040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.529017 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/льдины/tilemap/iceTexture1s.asset
+  artifactKey: Guid(e565fba91ad09a846a697eaf610cb1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/льдины/tilemap/iceTexture1s.asset using Guid(e565fba91ad09a846a697eaf610cb1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94ddf4c8aaef55f9d64766b317b4cf5') in 0.025861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031795 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/снежные пласты/tilemap/snowyСoastline6s.asset
+  artifactKey: Guid(f2863815b8cbabd418e7b4e89243404d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/снежные пласты/tilemap/snowyСoastline6s.asset using Guid(f2863815b8cbabd418e7b4e89243404d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757b6360734b89c95b1624490eb0989c') in 0.031369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.078966 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/рыбы
+  artifactKey: Guid(8b02152212668a34c8c4091ebcaa2933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/рыбы using Guid(8b02152212668a34c8c4091ebcaa2933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee227c2518ffa9d271cf863435a29808') in 0.002235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058336 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/снежные пласты/tilemap/snowyСoastline6s (2).asset
+  artifactKey: Guid(22ed9a653df973d43b6c41c18e188b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/снежные пласты/tilemap/snowyСoastline6s (2).asset using Guid(22ed9a653df973d43b6c41c18e188b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8fbc04f52997fd8523b97ba8ec450d') in 0.029608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002852 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/другое
+  artifactKey: Guid(df5da7c5f88a9bc4e8bfc7167f06fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/другое using Guid(df5da7c5f88a9bc4e8bfc7167f06fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217967231824e260499d67cb92e8b21d') in 0.000899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002084 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/снежные пласты/tilemap/snowyСoastline4s.asset
+  artifactKey: Guid(ffbcd6694c9f78f418ba2f6da87175f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/снежные пласты/tilemap/snowyСoastline4s.asset using Guid(ffbcd6694c9f78f418ba2f6da87175f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5493a0073d6d7c95a286bdfe29b74625') in 0.026885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.233401 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/девочка олень
+  artifactKey: Guid(a2f1055615915c040910ca71ac8de0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/девочка олень using Guid(a2f1055615915c040910ca71ac8de0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7ed96e53e3db9fc1f81855ed4465e0') in 0.011449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053093 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/льдины/tilemap
+  artifactKey: Guid(049a75281edd1cf44a0b468eae0f9961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/льдины/tilemap using Guid(049a75281edd1cf44a0b468eae0f9961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f83f8d8e14b255ede89a91f78b9faa6') in 0.000557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063496 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe5s.asset
+  artifactKey: Guid(6ed1f6fb2160ace4ab07b518cc6f21bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe5s.asset using Guid(6ed1f6fb2160ace4ab07b518cc6f21bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fbe1567de04b0200272fbc290db3a8') in 0.015027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.064545 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe4s.asset
+  artifactKey: Guid(b3e5b10afd5aefc4882b94815aed3c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe4s.asset using Guid(b3e5b10afd5aefc4882b94815aed3c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e04e0497105f143eab99767a926aec') in 0.021071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.212412 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe3s.asset
+  artifactKey: Guid(b4a0819386a3b2f4db7c6f10a62a544e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe3s.asset using Guid(b4a0819386a3b2f4db7c6f10a62a544e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1659df82d9fe5cd6252b25f3fa5f54b') in 0.023242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.192754 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe2s.asset
+  artifactKey: Guid(45326173777203d4a845935414620ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe2s.asset using Guid(45326173777203d4a845935414620ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a58412611ad6b987e460262c9cd71a3') in 0.025521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.030194 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/бабуля
+  artifactKey: Guid(256916dfa0448d343ba44bae338771ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/бабуля using Guid(256916dfa0448d343ba44bae338771ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f3c52ef625c166988583cf206f316b') in 0.000634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022513 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe1s.asset
+  artifactKey: Guid(b7ebe8be75f08914aba022879ab3de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe1s.asset using Guid(b7ebe8be75f08914aba022879ab3de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f42e204fc629768d338839858c3a080') in 0.023619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002478 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe6s.asset
+  artifactKey: Guid(92608349d3a887d4593c3db196ac28ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/льдины/tilemap/compositeIceFloe6s.asset using Guid(92608349d3a887d4593c3db196ac28ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3114aeafe3ab9e62e598a952e07c1738') in 0.018480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.327172 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/модный котяра
+  artifactKey: Guid(43dacf9d4c22340469e77e7d8aef41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/модный котяра using Guid(43dacf9d4c22340469e77e7d8aef41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285adc7a08bc4af5f169ec5ddfebc93b') in 0.003107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.545120 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/льдины/tilemap/iceTexture2s.asset
+  artifactKey: Guid(8a5a7f187139edf4e8968bc60b35f091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/льдины/tilemap/iceTexture2s.asset using Guid(8a5a7f187139edf4e8968bc60b35f091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473a0747bffad0733250c5dd5d96b1e8') in 0.016960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.113310 seconds.
+  path: Assets/Scenes/тестовое задание/окружение/деревья
+  artifactKey: Guid(79096d33949103242860b77fe5443535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/тестовое задание/окружение/деревья using Guid(79096d33949103242860b77fe5443535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b1db4c0fcc3fe22d90d3e26d88a39b') in 0.000834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

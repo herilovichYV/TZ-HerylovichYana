@@ -53,6 +53,9 @@ TagManager:
   - name: "\u0434\u043E\u043C1"
     uniqueID: 850141235
     locked: 0
+  - name: "\u043F\u043E\u0434\u043E\u043A\u043E\u043D\u043D\u0438\u043A"
+    uniqueID: 1480417027
+    locked: 0
   - name: "\u0434\u043E\u043C \u043D\u0430 \u043D\u043E\u0436\u043A\u0430\u0445"
     uniqueID: 1870424179
     locked: 0
